@@ -1,3 +1,6 @@
-.login-container {
-    background-color: white;
+body {
+    display: flex;
+    justify-content: center;  /* 这个让整个body居中 */
+    align-items: center; 
+    height: 100vh;
 }
