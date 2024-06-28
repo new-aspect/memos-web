@@ -4,3 +4,12 @@ body {
     align-items: center; 
     height: 100vh;
 }
+
+.login-container {
+     background-color:white;
+     padding: 20px; /* 这是什么 */
+     border-radius: 8px;/*  这是什么 */
+     box-shadow: 0 0 10px rgb(0, 0, 0,0.1);
+     text-align: center; /* 这个让文字居中了 */
+     width: 500px;
+}
