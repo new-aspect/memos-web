@@ -13,3 +13,22 @@ body {
      text-align: center; /* 这个让文字居中了 */
      width: 500px;
 }
+
+h1 {
+    margin-bottom: 20px; /*设置它们的底边间距(margin-bottom)为20像素*/
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block; /*将lable标签设置为块元素，块级别元素会独占一行，即使他们前后自动换行*/
+    margin-bottom: 5px;
+}
+
+input {
+    width: calc(100% - 10px);
+    padding: 8px; /*元素内部与元素边距的空间。它的作用是增加元素内部的空白区域，使得元素内部不会紧贴*/
+}
