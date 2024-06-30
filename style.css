@@ -31,4 +31,7 @@ label {
 input {
     width: calc(100% - 10px);
     padding: 8px; /*元素内部与元素边距的空间。它的作用是增加元素内部的空白区域，使得元素内部不会紧贴*/
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* boder-radius用于设置元素的圆角半径 4px表示元素的圆角半径是4像素 */
 }
