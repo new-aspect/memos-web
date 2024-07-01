@@ -35,3 +35,21 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px; /* boder-radius用于设置元素的圆角半径 4px表示元素的圆角半径是4像素 */
 }
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    color: white; /* 这个让文字变成了白色的 */
+    border: none; /* 这个去掉了外面黑色的边框，变得好看了一点点 */
+    border-radius: 4px; /* 这个元素的圆角的半径变成4像素 */
+    cursor: pointer; /* 这个将鼠标的光标更改为指针的样式，就是让操作者知道这个东西可以点*/
+}
+
+button:hover { /* :hover 伪类用于选择鼠标指针悬停在其上的元素， */
+    background-color:  #45a049; /* :hover 表示当鼠标悬停在按钮上时，按钮的背景色会发生变化。这么做实现了鼠标悬停在上面颜色变深提示用户这个按钮是可以点的 */
+}
+
+p {
+    margin: 10px 0; /*表示为上下边距为10像素，左右边距为0像素 */
+}
